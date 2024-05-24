@@ -1,0 +1,353 @@
+/*header*/
+* 
+{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+header 
+{
+    height: 10vh;
+    width: 100%; 
+    background-color: #D0D0F2; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+
+} 
+.toggleIcon 
+{
+    background-color: #FEFEFE; 
+    height: 100%;
+    min-width: 10%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+} 
+.fa-bars 
+{
+    color:#9797D5; 
+    font-size: 20px; 
+
+} 
+.context 
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}  
+.context>* 
+{
+    margin-left: 50px;
+}
+.option 
+{
+    display: flex; 
+    justify-content: space-between;
+    
+    
+} 
+.message 
+{
+    display: none;
+    
+    
+}  
+.message>* 
+{
+    margin-left: 50px;
+    min-width: 30px;
+    height: 100%;
+    display: flex;
+    min-height: 100%; 
+    padding: 3vh 3vh;
+    
+} 
+.message i:hover 
+{
+    background-color: #DCDDF2;  
+    height: 100%;
+ 
+    
+   
+    
+}
+.option>* 
+{
+    margin-left: 20px;
+    border: none; 
+    outline: none;
+    background-color:#D0D0F2; 
+    
+}  
+
+
+select
+{
+    color: white;
+    
+    
+} 
+.input input 
+{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    
+}  
+.input 
+{
+    position: relative; 
+    right: 20px;
+} 
+.fa-burger 
+{
+    
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    color: white
+
+}
+/*header*/  
+/*section*/  
+section 
+{
+    height: 90vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F5F9;
+    align-items: flex-start;
+}  
+section>* 
+{
+    margin-top: 40px;
+}
+.side 
+{
+    height: 60vh;
+    min-width: 10%;
+    background-color: #D0D0F2; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+} 
+.side>* 
+{
+    font-size: 30px; 
+    color:#9B9CDD; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+} 
+.contextContent
+{
+   flex-direction: column;
+   width: 100%;
+    
+} 
+.contextContent
+{
+    margin-top: 10px;
+}
+.circleOne
+{ 
+    min-width:100%;
+    display: flex; 
+   
+    justify-content: space-evenly;
+} 
+.circleOne>* 
+{
+  height: 120px;
+    width: 200px; 
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #FFFFFF;
+    color:#AFADDF;
+}  
+.circleTwo>* 
+{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    height: 200px
+    
+}
+.rounds 
+{
+    min-height: 30px;
+    min-width: 30px; 
+    background-color: white;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px; 
+    color: #AFADDF;
+} 
+.round
+{
+    background-image: conic-gradient(red, calc(45%),#D0D0F2 0deg); 
+    min-height: 50px;
+   min-width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.rounds1 
+{
+    background-image: conic-gradient(#FBC07E, calc(45%),#D0D0F2 0deg); 
+} 
+.rounds2 
+{ 
+    background-image: conic-gradient(#57B694, calc(55%),#D0D0F2 0deg); 
+    
+} 
+.rounds3 
+{
+    background-image: conic-gradient(#6EC1F3, calc(95%),#D0D0F2 0deg); 
+} 
+.valueBar 
+{
+    display: flex;  
+    width: 100%;
+    justify-content: space-between; 
+    
+} 
+.percentile 
+{ 
+    font-size: 10px;
+    margin-right: 10px;
+}  
+/*------------progressbar---------*/  
+.progressBar 
+{
+    width: 100%; 
+
+}
+ .outerLayer 
+ {
+    height: 10px;
+    width: 150px;  
+   margin-left: 20px;
+    background-color: #EEEDFB;
+    border-radius: 10px;
+ } 
+ .innerLayer 
+ {
+    border-radius: 10px;
+ }
+/*--------------progressbar-----------*/ 
+.ipsum 
+{
+    width: 100%;
+
+} 
+.ranger 
+{
+    width: 100%;
+    
+}  
+.ranger>* 
+{
+    margin-top: 10px;
+}
+.cir>* 
+{
+    margin-top: 10px;
+}
+/*section*/ 
+/*--------three-----------*/ 
+.circleThree 
+{
+    display: flex;
+     margin-top: 20px;
+    justify-content: space-evenly;
+    width: 100%;
+} 
+.circleThree>* 
+{
+    width: 300px;
+    height: 300px;
+    background-color: white; 
+
+   
+} 
+.graphEval 
+{
+    color:#A9ADDC;
+   
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    gap: 20PX;
+    
+} 
+.graphEval1
+ 
+{
+width: 20%;
+} 
+.graphEval2
+{
+width: 40%;
+}
+/*-- ----------three--------*/
+/*MediaQuery*/  
+@media(min-width: 720px)
+{
+select 
+{
+    font-size: 30px;
+} 
+.message 
+{
+    display: flex;
+} 
+.fa-burger 
+{
+    display: none;
+}
+} 
+@media (max-width: 720px) { 
+    .context 
+    {
+        font-size: 30px; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-end;
+       position: relative;
+    } 
+    .message>*  
+{
+    margin: 0px;
+   
+}  
+.message 
+{
+    margin: 0px;
+   
+} 
+.Noner{
+    display:flex;
+    flex-direction: column;
+    
+    position: absolute;
+    top: 40px;
+    right: 0px;
+
+} 
+    
+}
+/*MediaQuery*/
